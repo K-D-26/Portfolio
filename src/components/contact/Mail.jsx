@@ -3,7 +3,6 @@ import emailjs from '@emailjs/browser';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import email from '../../assets/email.gif'
-import './Mail.css'
 
 const Mail = () => {
 
@@ -108,8 +107,7 @@ const Mail = () => {
                                 required
                             />
                             <button
-                                // className='text-white bg-gradient-to-b from-cyan-500 to-blue-500 px-6 py-3 my-8 mx-auto flex items-center rounded-md hover:scale-110 duration-300 relative w-28'
-                                className='px-6 py-3 my-8 mx-auto flex items-center rounded-md hover:scale-110 duration-300 relative w-28'
+                                className='text-white bg-gradient-to-b from-cyan-500 to-blue-500 px-6 py-3 my-8 mx-auto flex items-center rounded-md hover:scale-110 duration-300 relative w-28'
                             >
                                 Send
                                 <img src={email} alt="" className='absolute h-9 ml-10' />

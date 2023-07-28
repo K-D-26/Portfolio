@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-import './Message.css'
 
 const Message = () => {
 
@@ -90,8 +89,7 @@ const Message = () => {
                             ></textarea>
 
                             <button
-                                // className='text-white bg-gradient-to-b from-cyan-500 to-blue-500 px-6 py-3 my-8 mx-auto flex items-center rounded-md hover:scale-110 duration-300'
-                                className='px-6 py-3 my-8 mx-auto flex items-center rounded-md hover:scale-110 duration-300 relative w-32 button'
+                                className='text-white bg-gradient-to-b from-cyan-500 to-blue-500 px-6 py-3 my-8 mx-auto flex items-center rounded-md hover:scale-110 duration-300'
                             >
                                 Let's talk
                             </button>
