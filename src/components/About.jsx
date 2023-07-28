@@ -7,16 +7,16 @@ const About = () => {
                 <div className='pb-8'>
                     <p className='text-4xl font-bold inline border-b-4 border-gray-500'>About</p>
                 </div>
-                <p className='text-xl mt-20'>
+                <p className='text-xl mt-20 text-justify'>
                     Currently I am pursuing my B.Tech in Computer Science Engineering at Indian Institute of Information Technology (IIIT) Vadodara. At present I am in my final year and looking for job opportunities.
                 </p>
                 <br />
-                <p className='text-xl'>
+                <p className='text-xl text-justify'>
                     As a final-year student with a passion for web development, I have honed my skills and knowledge in full-stack web development, encompassing front-end, back-end, and database technologies. Through personal projects and academic coursework, I have gained hands-on experience in creating responsive and visually appealing websites.
                 </p>
                 <br />
-                <p className='text-xl'>
-                    Throughout my academic journey, I have maintained a healthy CPI of 7.35. Balancing my studies and extracurricular activities as a full-stack developer has taught me valuable time management and organizational skills. As a passionate learner, I embrace challenges and continuously seek opportunities to expand my knowledge and skills. I am now eagerly seeking job opportunities to contribute in innovative projects, and grow as a professional person.
+                <p className='text-xl text-justify'>
+                    Recently, I completed my frontend internship with <strong><em><a href="https://www.technotery.com/" target="_blank" rel="noreferrer">Technotery</a></em></strong>. The internship period was of 2 months and I had a great experience working with the team and learning new skills and methodologies used in the real world. As a passionate learner, I embrace challenges and continuously seek opportunities to expand my knowledge and skills. I am now eagerly seeking job opportunities to contribute in innovative projects, and grow as a professional person.
                 </p>
             </div>
         </div>
