@@ -3,7 +3,7 @@ import Contact from "./components/Contact";
 import Experience from "./components/Experience";
 import Home from "./components/Home";
 import Navbar from "./components/NavBar";
-import Portfolio from "./components/Portfolio";
+import Portfolio from "./components/Projects";
 import Scroll from "./components/Scroll";
 import SocialLinks from "./components/SocialLinks";
 
