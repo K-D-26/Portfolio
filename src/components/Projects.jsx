@@ -4,6 +4,7 @@ import snake from '../assets/project/snake.jpg'
 import quote from '../assets/project/quote.jpg'
 import chat from '../assets/project/chat.jpg'
 import scroll from '../assets/project/scroll.jpg'
+import pip from '../assets/project/pip.png'
 
 const Project = () => {
     const projects = [
@@ -36,6 +37,12 @@ const Project = () => {
             src: scroll,
             code: "https://github.com/K-D-26/Infinite-scroll",
             live: "https://infinite-scroll-jet-chi.vercel.app/"
+        },
+        {
+            id: 6,
+            src: pip,
+            code: "https://github.com/K-D-26/Picture-in-Picture",
+            live: "https://picture-in-picture-seven.vercel.app/"
         }
     ]
 
