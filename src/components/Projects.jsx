@@ -3,7 +3,7 @@ import blog from '../assets/project/blog.jpg'
 import snake from '../assets/project/snake.jpg'
 import quote from '../assets/project/quote.jpg'
 import chat from '../assets/project/chat.jpg'
-import scroll from '../assets/project/scroll.jpg'
+import pwa_weather from '../assets/project/pwa-weather.png'
 import pip from '../assets/project/pip.png'
 
 const Project = () => {
@@ -22,21 +22,21 @@ const Project = () => {
         },
         {
             id: 3,
+            src: pwa_weather,
+            code: "https://github.com/K-D-26/pwa-weather-app",
+            live: "https://pwa-weather-app-kohl.vercel.app/"
+        },
+        {
+            id: 4,
             src: snake,
             code: "https://github.com/K-D-26/Snake_Game",
             live: "https://snake-game-k-d-26.vercel.app/"
         },
         {
-            id: 4,
+            id: 5,
             src: quote,
             code: "https://github.com/K-D-26/Quote-Generator",
             live: "https://quote-generator-k-d-26.vercel.app/"
-        },
-        {
-            id: 5,
-            src: scroll,
-            code: "https://github.com/K-D-26/Infinite-scroll",
-            live: "https://infinite-scroll-jet-chi.vercel.app/"
         },
         {
             id: 6,
