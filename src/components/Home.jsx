@@ -15,7 +15,7 @@ const Home = () => {
                         I'm a Full Stack Developer
                     </h2>
                     <p className='text-gray-500 py-4 max-w-md text-justify'>
-                        I am Kavan Dagli, a final-year CSE student from IIIT Vadodara, well-versed in MERN stack technologies with hands-on experience in web development. I am adept at building robust, scalable and user-friendly applications. Direct to the project section to see my works.
+                        I am Kavan Dagli, a final-year student of CSE branch from IIIT Vadodara, well-versed in MERN stack technologies with hands-on experience in web development. I am adept at building robust, scalable and user-friendly applications. Direct to the project section to see my works.
                     </p>
 
                     <div>

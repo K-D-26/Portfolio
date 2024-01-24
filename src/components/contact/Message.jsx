@@ -3,7 +3,6 @@ import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
 const Message = () => {
-
     // toastify
     const handleToast = () => toast.success('Your message has been sent!', {
         position: "top-center",

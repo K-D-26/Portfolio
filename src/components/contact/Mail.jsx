@@ -5,7 +5,6 @@ import 'react-toastify/dist/ReactToastify.css';
 import email from '../../assets/email.gif'
 
 const Mail = () => {
-
     // reset inputs
     const initialFormState = {
         user_name: '',

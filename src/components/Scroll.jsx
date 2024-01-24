@@ -2,7 +2,6 @@ import React from 'react'
 import top from '../assets/top.png'
 
 const Scroll = () => {
-
     window.onscroll = function () {
         showScrollToTopButton();
     };
@@ -28,14 +27,13 @@ const Scroll = () => {
         }, 15);
     }
 
-
     return (
         <div>
             <button className="scroll-to-top-btn hidden fixed bottom-4 right-4 w-10 h-10 rounded-full bg-blue-500 text-white text-xl flex items-center justify-center cursor-pointer" onClick={scrollToTop}>
-                <img src={top} alt="" />
+                <img src={top} alt="go to top" />
             </button>
         </div>
     )
 }
 
-export default Scroll
+export default Scroll;
