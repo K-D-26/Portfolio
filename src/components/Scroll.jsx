@@ -16,7 +16,7 @@ const Scroll = () => {
     }
 
     function scrollToTop() {
-        const scrollDuration = 500;
+        const scrollDuration = 1000;
         const scrollStep = -window.scrollY / (scrollDuration / 15);
         const scrollInterval = setInterval(function () {
             if (window.scrollY !== 0) {
@@ -29,7 +29,7 @@ const Scroll = () => {
 
     return (
         <div>
-            <button className="scroll-to-top-btn hidden fixed bottom-4 right-4 w-10 h-10 rounded-full bg-blue-500 text-white text-xl flex items-center justify-center cursor-pointer" onClick={scrollToTop}>
+            <button className="scroll-to-top-btn fixed bottom-4 right-4 w-10 h-10 rounded-full bg-blue-500 text-white text-xl flex items-center justify-center cursor-pointer" onClick={scrollToTop}>
                 <img src={top} alt="go to top" />
             </button>
         </div>
